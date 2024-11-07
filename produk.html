@@ -1,0 +1,296 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>UTS Fadli</title>
+    <link
+      href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css"
+      rel="stylesheet"
+      integrity="sha384-QWTKZyjpPEjISv5WaRU9OFeRpok6YctnYmDr5pNlyT2bRjXh0JMhjY6hW+ALEwIH"
+      crossorigin="anonymous"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <!-- Navbar -->
+    <nav class="navbar navbar-expand-lg sticky-top">
+      <div class="container">
+          <!-- Logo dan Nama Toko -->
+          <a class="navbar-brand d-flex align-items-center" href="index.html">
+              <img src="image/logo_NH-removebg-preview.png" alt="Logo">
+              <span class="fw-bold">Galery Nurul Huda</span>
+          </a>
+
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+          </button>
+
+          <!-- Menu Navbar -->
+          <div class="collapse navbar-collapse" id="navbarNav">
+              <ul class="navbar-nav">
+                  <li class="nav-item">
+                      <a class="nav-link" href="index.html">Home</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="profil.html">Profil</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="produk.html">Produk</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="galeri.html">Galeri</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="kontak.html">Kontak Kami</a>
+                  </li>
+              </ul>
+          </div>
+      </div>
+  </nav>
+
+
+    <div
+      class="content text-center my-4"
+      style="background-color: #f0f8ff; padding: 20px; border-radius: 10px"
+    >
+      <h3 style="font-size: 1.2em; font-weight: bold">
+        Produk Galery Nurul Huda
+      </h3>
+      <img
+        src="image/logo_NH-removebg-preview.png"
+        alt="Logo Website"
+        class="logo"
+        style="max-width: 150px"
+      />
+      <p style="font-size: 1.1em; color: #333">
+        Pilihan tepat untuk anda <br />
+        penggemar Dress syar'i mewah nan elegan
+      </p>
+    </div>
+
+    <!-- Tentang Kami -->
+  <section id="about" class="py-5">
+    <div class="container text-center">
+      <h3 class="mb-4">✨ Cantik & Anggun Bersama Galery Nurul Huda! ✨</h3>
+      <p>Dapatkan dress wanita dengan desain elegan yang memancarkan keanggunan dan kepercayaan diri Anda! Setiap potongan dari Galery Nurul Huda dibuat dengan penuh ketelitian dan menggunakan bahan berkualitas tinggi, nyaman dipakai sepanjang hari. Cocok untuk acara spesial ataupun kegiatan sehari-hari.
+
+        🎉 Promo Terbatas: Diskon Hingga 20%! 🎉
+        🌸 Belanja Sekarang dan Rasakan Keanggunan Sebenarnya!
+        
+        💃 Jangan lewatkan kesempatan ini untuk tampil menawan dengan dress terbaik dari Galery Nurul Huda. Ayo, kunjungi toko kami sekarang dan temukan gaya yang sesuai dengan kepribadian Anda!.</p>
+    </div>
+  </section>
+
+    <!-- Jumbotron dengan Search Bar -->
+    <div class="container text-center">
+      <div class="p-5 mb-4 rounded-3 shadow-sm" style="background: url('image/images.jpg'); background-size: cover; background-position: center; background-attachment: fixed; background-repeat: no-repeat; height: 40vh;">
+        <h4 class="fw-bold text-white">Selamat Datang di Galery Nurul Huda</h4>
+        <p class="lead text-white">Temukan koleksi dress wanita elegan yang Anda cari di sini!</p>
+        <div class="input-group mt-4 mx-auto" style="max-width: 600px;">
+          <input type="text" class="form-control" placeholder="Cari dress favorit Anda..." aria-label="Cari dress favorit Anda" aria-describedby="button-search">
+          <button class="btn btn-primary" type="button" id="button-search">Cari</button>
+        </div>
+      </div>
+    </div>
+    
+
+
+    <section class="list-produk w-100">
+      <div class="container py-4" style="width: 82%;">
+        <h3>Elora Dress</h3>
+        <!--foto produk-->
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="image/elora-putih.jpg" class="card-img-top" alt="produk1" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Ellora putih</h5>
+                <p class="card-harga">Rp 120.000,-</p>
+                <a href="#" class="btn btn-primary">Deskripsi produk</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="image/elora-hitam.jpg"
+                class="card-img-top"
+                alt="produk2"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Ellora hitam</h5>
+                <p class="card-harga">Rp 120.000,-</p>
+                <a href="#" class="btn btn-primary">Deskripsi produk</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img
+                src="image/elora-mauve.jpg"
+                class="card-img-top"
+                alt="produk3"
+              />
+              <div class="card-body text-center">
+                <h5 class="card-title">Ellora mauve</h5>
+                <p class="card-harga">Rp 120.000,-</p>
+                <a href="#" class="btn btn-primary">Deskripsi produk</a>
+              </div>
+            </div>
+          </div>
+        </div>
+        <br />
+  
+        <h3>Diva Dress</h3>
+        <div class="row">
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="image/diva-cyan.jpg" class="card-img-top" alt="produk1" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Diva Cyan</h5>
+                <p class="card-harga">Rp 120.000,-</p>
+                <a href="#" class="btn btn-primary">Deskripsi produk</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="image/diva-maroon.jpg" class="card-img-top" alt="produk2" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Diva maroon</h5>
+                <p class="card-harga">Rp 120.000,-</p>
+                <a href="#" class="btn btn-primary">Deskripsi produk</a>
+              </div>
+            </div>
+          </div>
+  
+          <div class="col-md-4">
+            <div class="card" style="width: 18rem">
+              <img src="image/diva-moca.jpg" class="card-img-top" alt="produk3" />
+              <div class="card-body text-center">
+                <h5 class="card-title">Diva moca</h5>
+                <p class="card-harga">Rp 120.000,-</p>
+                <a href="#" class="btn btn-primary">Deskripsi produk</a>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <br> <br>
+    <!-- Carousel Produk Unggulan -->
+     <h3>yukk mari intip produk unggulan kami!!</h3>
+    <div id="carouselExampleIndicators" class="carousel slide" data-bs-ride="carousel">
+      <div class="container" style="width: 82%;">
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="image/elora-putih.jpg" class="d-block w-100" alt="Produk 1">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Dress Elora Putih</h5>
+            <p>Tampilan elegan dengan kualitas premium.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/diva-cyan.jpg" class="d-block w-100" alt="Produk 2">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Dress Diva Cyan</h5>
+            <p>Nyaman dan anggun untuk setiap kesempatan.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="image/elora-mauve.jpg" class="d-block w-100" alt="Produk 3">
+          <div class="carousel-caption d-none d-md-block">
+            <h5>Dress Ellora Mauve</h5>
+            <p>Pilihan warna pastel yang memikat.</p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleIndicators" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+    </div>
+
+    <div class="container mt-4">
+      <div class="row justify-content-center">
+          <div class="col-md-8">
+              <img src="image/marketplace.png" alt="Deskripsi Gambar" class="img-fluid custom-image">
+          </div>
+      </div>
+    </div>
+
+     <!-- Footer -->
+  <footer id="footer" class="bg-dark text-white py-4 w-100">
+    <div class="container text-center">
+      <h5>Galery Nurul Huda</h5>
+      <p>Koperasi Pondok Pesantren Nurul Huda - Jl. Mawar 1 Kedungwuni Timur, Pekalongan, Jawa Tengah</p>
+      <p>Kontak: +62 857 2943 1440 | Email: galerynurulhuda@gmail.com</p>
+      <div class="mt-3">
+        <a href="https://youtube.com/@nurulhudagembongofficial9879?si=0H6XYmEi3yuOoQ6E" class="text-white me-3"><i class="bi bi-youtube"></i></a>
+        <a href="https://www.instagram.com/ponpesnurulhudagembong?igsh=MWQwbTYzYWRtZHp2bw==" class="text-white me-3"><i class="bi bi-instagram"></i></a>
+        <a href="https://www.tiktok.com/@galery_nh?_t=8rAlnVLb1ro&_r=1" class="text-white me-3"><i class="bi bi-tiktok"></i></a>
+        <a href="https://wa.me/6285700445691" class="text-white"><i class="bi bi-whatsapp"></i></a>
+      </div>
+      <p class="mt-3">&copy; 2024 Galery Nurul Huda. All rights reserved.</p>
+    </div>
+  </footer>
+
+    <!-- Button On Top -->
+    <button
+      type="button"
+      class="btn btn-primary position-fixed bottom-0 end-0 m-4"
+      id="btnOnTop"
+      onclick="scrollToTop()"
+      style="display: none; z-index: 1000"
+    >
+      ^
+    </button>
+
+    <script>
+      // Show the button when scrolling down
+      window.onscroll = function () {
+        const btnOnTop = document.getElementById("btnOnTop");
+        if (
+          document.body.scrollTop > 200 ||
+          document.documentElement.scrollTop > 200
+        ) {
+          btnOnTop.style.display = "block";
+        } else {
+          btnOnTop.style.display = "none";
+        }
+      };
+
+      // Scroll to top function
+      function scrollToTop() {
+        window.scrollTo({ top: 0, behavior: "smooth" });
+      }
+    </script>
+
+    <script
+      src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
+      integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz"
+      crossorigin="anonymous"
+    ></script>
+  </body>
+</html>

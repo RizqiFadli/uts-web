@@ -1,0 +1,195 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: poppins, sans-serif;
+}
+
+body {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #f0f0f0;
+}
+
+/* Navbar */
+.navbar {
+    width: 100%;
+    background-color: #e3f2fd; /* Biru pucat untuk kesan segar */
+    padding: 1rem;
+}
+.navbar-brand img {
+    height: 40px;
+    margin-right: 10px;
+}
+.navbar-brand span {
+    color: #1a73e8; /* Warna biru tua untuk teks */
+}
+.navbar-nav {
+    margin-left: auto;
+    margin-right: 0;
+}
+.nav-link {
+    font-weight: 500;
+    color: #333; /* Abu-abu gelap untuk kontras */
+    transition: color 0.3s;
+}
+.nav-link:hover {
+    color: #1a73e8; /* Warna biru tua untuk hover */
+}
+
+/* Logo */
+.logo {
+    margin: 20px;
+    width: 200px;
+    height: auto;
+}
+
+/* Konten utama */
+.content {
+    text-align: center;
+    padding: 40px;
+}
+
+.content h3 {
+    color: #333;
+}
+
+.content p {
+    margin-top: 10px;
+    color: #555;
+    font-size: 1.2em;
+}
+
+/* Keterangan dan foto produk */
+.info-section {
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 40px;
+    gap: 20px;
+    width: 80%;
+}
+
+.keterangan {
+    width: 50%;
+    color: #333;
+    font-size: 1em;
+    line-height: 1.5em;
+}
+
+.produk {
+    width: 50%;
+    display: flex;
+    gap: 20px;
+    justify-content: center;
+}
+
+.produk img {
+    width: 100%;
+    max-width: 200px;
+    height: auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.logo2 {
+    width: 200px;
+    height: auto;
+    display: flex;
+    justify-content: center;
+}
+
+ .card-title {
+    text-align: center;
+} 
+
+.card-harga {
+    text-align: center;
+    color: red;
+}
+
+/*testimoni*/
+.testimonial-section {
+    text-align: center;
+    padding: 2rem;
+  }
+
+  .image-gallery img {
+    max-width: 100%;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+  }
+
+  .image-gallery img:hover {
+    transform: scale(1.05);
+  }
+
+header {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+header h1 {
+    font-size: 2.5em;
+    color: #333;
+}
+
+header p {
+    font-size: 1.2em;
+    color: #666;
+    margin-top: 5px;
+}
+
+.contact-info {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 20px;
+    justify-content: center;
+    max-width: 1200px;
+}
+
+.contact-item {
+    width: 280px;
+    background-color: #fff;
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    transition: transform 0.3s;
+    text-align: center;
+    padding: 20px;
+}
+
+.contact-item:hover {
+    transform: scale(1.05);
+    background-color: #ffa600ad;
+}
+
+.contact-item img {
+    width: 60px;
+    height: 60px;
+    margin-bottom: 15px;
+}
+
+.item-info h3 {
+    font-size: 1.2em;
+    color: #333;
+    margin-bottom: 10px;
+}
+
+.item-info p {
+    font-size: 0.9em;
+    color: #666;
+    line-height: 1.5;
+}
+
+.list-produk {
+    background-color: #ffffff;
+    text-align: center;
+}
+
+.custom-image {
+    border-radius: 10px; /* Membuat sudut gambar melengkung */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Memberikan efek bayangan */
+}
+
